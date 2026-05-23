@@ -175,6 +175,10 @@ nav div h1 {
     gap: 30px;
     margin-top: 50px;
 }
+.penjelasan {
+   font-family:Akt;
+    font-weight:bold;
+}
 .ac {
     width: 200px;
     border: 2px solid black;
