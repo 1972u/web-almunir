@@ -1,0 +1,304 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-y: auto;
+    min-height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg rgba(255, 255, 255, 0.9) 0%, rgba(200, 230, 201, 0.4) 100%);
+    backdrop-filter: blur(5px);
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav div img {
+    width:100px;
+    padding:10px;
+}
+nav div h1 {
+    font-family: Bebas Neue;
+    margin-right: 10px;
+    color: #51f351;
+}
+.section_awal {
+    justify-content: center;
+    background-image: url(1.webp);
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.section_awal h1 {
+    font-family: Bebas Neue;
+    font-size: 50px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: rgb(81, 243, 81);
+}
+.section_awal h3 {
+    font-family: Bebas Neue;
+    font-size: 30px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.container_box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.kartu_induk {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+.kartu_icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.kartu_icon i {
+    font-size: 50px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.kartu_tulisan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+}
+.h1_box_atas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+.section_visi_misi {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.section_visi_misi h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+.container_tulisan_visi_misi {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.angka {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    background-color: #51f351;;
+}
+.angka span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+.tulisan {
+   padding: 10px;
+}
+.tulisan p {
+    display: flex;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.section_fasilitas {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.section_fasilitas h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+.baris_fasilitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.ac {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px black;
+}
+.komputer {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px black;
+}
+.proyektor {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px black;
+}
+.bola {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px black;
+}
+.aula {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px black;
+    margin-right: 15px;
+}
+.perpustakaan {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px black;
+    margin-right: 70px;
+}
+.section_kegiatan {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.h3_lomba_atas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+.h3_lomba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+.container_kegiatan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.kartu_kegiatan {
+    width: 200px;    
+    width:300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px black;
+}
+.kartu_kegiatan i {
+    font-size: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.p_lomba {
+    text-align: center;
+    padding: 10px;
+}
+.baris_fasilitas:nth-child(even) {
+    flex-direction: row-reverse;
+}
+footer {
+    background-color:#118911;
+    margin-top: 130px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.p_footer {
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    .container_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .kartu_induk {
+        display: flex;
+        margin-top:20px;
+    }
+    .container_tulisan_visi_misi {
+        flex-direction: column;
+        align-items: center;
+    }
+    .baris_fasilitas {
+        flex-direction: column;
+        text-align: center;
+    }
+    .p_footer {
+        text-align: center;
+    }
+}
