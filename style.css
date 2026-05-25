@@ -254,6 +254,7 @@ nav div h1 {
 .kartu_kegiatan {
     width: 200px;    
     width:300px;
+    border:2px dashed black;
     border-radius: 5px;
     display: flex;
     justify-content: center;
